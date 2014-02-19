@@ -18,6 +18,15 @@
 		08FF1FFA18B5330800BDF136 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FF1FD918B5330800BDF136 /* Cocoa.framework */; };
 		08FF200218B5330800BDF136 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08FF200018B5330800BDF136 /* InfoPlist.strings */; };
 		08FF200418B5330800BDF136 /* Sidebar_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF200318B5330800BDF136 /* Sidebar_TestTests.m */; };
+		08FF202C18B5332C00BDF136 /* ConstraintUtilities+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF201018B5332C00BDF136 /* ConstraintUtilities+Description.m */; };
+		08FF202D18B5332C00BDF136 /* ConstraintUtilities+Install.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF201318B5332C00BDF136 /* ConstraintUtilities+Install.m */; };
+		08FF202E18B5332C00BDF136 /* ConstraintUtilities+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF201618B5332C00BDF136 /* ConstraintUtilities+Layout.m */; };
+		08FF202F18B5332C00BDF136 /* ConstraintUtilities+Matching.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF201C18B5332C00BDF136 /* ConstraintUtilities+Matching.m */; };
+		08FF203018B5332C00BDF136 /* NSObject-Description.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF202218B5332C00BDF136 /* NSObject-Description.m */; };
+		08FF203118B5332C00BDF136 /* NSObject-Nametag.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF202418B5332C00BDF136 /* NSObject-Nametag.m */; };
+		08FF203218B5332C00BDF136 /* NSView+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF202718B5332C00BDF136 /* NSView+BackgroundColor.m */; };
+		08FF203318B5332C00BDF136 /* View-Nametag.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF202918B5332C00BDF136 /* View-Nametag.m */; };
+		08FF203418B5332C00BDF136 /* NSView+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FF202B18B5332C00BDF136 /* NSView+Constraints.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +59,28 @@
 		08FF1FFF18B5330800BDF136 /* Sidebar TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sidebar TestTests-Info.plist"; sourceTree = "<group>"; };
 		08FF200118B5330800BDF136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		08FF200318B5330800BDF136 /* Sidebar_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sidebar_TestTests.m; sourceTree = "<group>"; };
+		08FF200F18B5332C00BDF136 /* ConstraintUtilities+Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Description.h"; sourceTree = "<group>"; };
+		08FF201018B5332C00BDF136 /* ConstraintUtilities+Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ConstraintUtilities+Description.m"; sourceTree = "<group>"; };
+		08FF201218B5332C00BDF136 /* ConstraintUtilities+Install.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Install.h"; sourceTree = "<group>"; };
+		08FF201318B5332C00BDF136 /* ConstraintUtilities+Install.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ConstraintUtilities+Install.m"; sourceTree = "<group>"; };
+		08FF201518B5332C00BDF136 /* ConstraintUtilities+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Layout.h"; sourceTree = "<group>"; };
+		08FF201618B5332C00BDF136 /* ConstraintUtilities+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ConstraintUtilities+Layout.m"; sourceTree = "<group>"; };
+		08FF201818B5332C00BDF136 /* ConstraintUtilities+CreationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+CreationMacros.h"; sourceTree = "<group>"; };
+		08FF201918B5332C00BDF136 /* ConstraintUtilities+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Utility.h"; sourceTree = "<group>"; };
+		08FF201B18B5332C00BDF136 /* ConstraintUtilities+Matching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Matching.h"; sourceTree = "<group>"; };
+		08FF201C18B5332C00BDF136 /* ConstraintUtilities+Matching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ConstraintUtilities+Matching.m"; sourceTree = "<group>"; };
+		08FF201D18B5332C00BDF136 /* ConstraintPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstraintPack.h; sourceTree = "<group>"; };
+		08FF201F18B5332C00BDF136 /* NametagUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NametagUtilities.h; sourceTree = "<group>"; };
+		08FF202118B5332C00BDF136 /* NSObject-Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-Description.h"; sourceTree = "<group>"; };
+		08FF202218B5332C00BDF136 /* NSObject-Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject-Description.m"; sourceTree = "<group>"; };
+		08FF202318B5332C00BDF136 /* NSObject-Nametag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-Nametag.h"; sourceTree = "<group>"; };
+		08FF202418B5332C00BDF136 /* NSObject-Nametag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject-Nametag.m"; sourceTree = "<group>"; };
+		08FF202618B5332C00BDF136 /* NSView+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+BackgroundColor.h"; sourceTree = "<group>"; };
+		08FF202718B5332C00BDF136 /* NSView+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+BackgroundColor.m"; sourceTree = "<group>"; };
+		08FF202818B5332C00BDF136 /* View-Nametag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View-Nametag.h"; sourceTree = "<group>"; };
+		08FF202918B5332C00BDF136 /* View-Nametag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View-Nametag.m"; sourceTree = "<group>"; };
+		08FF202A18B5332C00BDF136 /* NSView+Constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Constraints.h"; sourceTree = "<group>"; };
+		08FF202B18B5332C00BDF136 /* NSView+Constraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Constraints.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +150,7 @@
 				08FF1FEC18B5330800BDF136 /* SemiAppDelegate.m */,
 				08FF1FEE18B5330800BDF136 /* MainMenu.xib */,
 				08FF1FF118B5330800BDF136 /* Images.xcassets */,
+				08FF200D18B5332C00BDF136 /* Constraints Pack */,
 				08FF1FE018B5330800BDF136 /* Supporting Files */,
 			);
 			path = "Sidebar Test";
@@ -152,6 +184,100 @@
 				08FF200018B5330800BDF136 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08FF200D18B5332C00BDF136 /* Constraints Pack */ = {
+			isa = PBXGroup;
+			children = (
+				08FF200E18B5332C00BDF136 /* Constraint Description */,
+				08FF201118B5332C00BDF136 /* Constraint Install */,
+				08FF201418B5332C00BDF136 /* Constraint Layout */,
+				08FF201718B5332C00BDF136 /* Constraint Macros */,
+				08FF201A18B5332C00BDF136 /* Constraint Matching */,
+				08FF201D18B5332C00BDF136 /* ConstraintPack.h */,
+				08FF201E18B5332C00BDF136 /* Nametag Utilities */,
+				08FF202A18B5332C00BDF136 /* NSView+Constraints.h */,
+				08FF202B18B5332C00BDF136 /* NSView+Constraints.m */,
+			);
+			name = "Constraints Pack";
+			path = "../Constraints Pack";
+			sourceTree = "<group>";
+		};
+		08FF200E18B5332C00BDF136 /* Constraint Description */ = {
+			isa = PBXGroup;
+			children = (
+				08FF200F18B5332C00BDF136 /* ConstraintUtilities+Description.h */,
+				08FF201018B5332C00BDF136 /* ConstraintUtilities+Description.m */,
+			);
+			path = "Constraint Description";
+			sourceTree = "<group>";
+		};
+		08FF201118B5332C00BDF136 /* Constraint Install */ = {
+			isa = PBXGroup;
+			children = (
+				08FF201218B5332C00BDF136 /* ConstraintUtilities+Install.h */,
+				08FF201318B5332C00BDF136 /* ConstraintUtilities+Install.m */,
+			);
+			path = "Constraint Install";
+			sourceTree = "<group>";
+		};
+		08FF201418B5332C00BDF136 /* Constraint Layout */ = {
+			isa = PBXGroup;
+			children = (
+				08FF201518B5332C00BDF136 /* ConstraintUtilities+Layout.h */,
+				08FF201618B5332C00BDF136 /* ConstraintUtilities+Layout.m */,
+			);
+			path = "Constraint Layout";
+			sourceTree = "<group>";
+		};
+		08FF201718B5332C00BDF136 /* Constraint Macros */ = {
+			isa = PBXGroup;
+			children = (
+				08FF201818B5332C00BDF136 /* ConstraintUtilities+CreationMacros.h */,
+				08FF201918B5332C00BDF136 /* ConstraintUtilities+Utility.h */,
+			);
+			path = "Constraint Macros";
+			sourceTree = "<group>";
+		};
+		08FF201A18B5332C00BDF136 /* Constraint Matching */ = {
+			isa = PBXGroup;
+			children = (
+				08FF201B18B5332C00BDF136 /* ConstraintUtilities+Matching.h */,
+				08FF201C18B5332C00BDF136 /* ConstraintUtilities+Matching.m */,
+			);
+			path = "Constraint Matching";
+			sourceTree = "<group>";
+		};
+		08FF201E18B5332C00BDF136 /* Nametag Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				08FF201F18B5332C00BDF136 /* NametagUtilities.h */,
+				08FF202018B5332C00BDF136 /* NSObject */,
+				08FF202518B5332C00BDF136 /* View */,
+			);
+			path = "Nametag Utilities";
+			sourceTree = "<group>";
+		};
+		08FF202018B5332C00BDF136 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				08FF202118B5332C00BDF136 /* NSObject-Description.h */,
+				08FF202218B5332C00BDF136 /* NSObject-Description.m */,
+				08FF202318B5332C00BDF136 /* NSObject-Nametag.h */,
+				08FF202418B5332C00BDF136 /* NSObject-Nametag.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		08FF202518B5332C00BDF136 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08FF202618B5332C00BDF136 /* NSView+BackgroundColor.h */,
+				08FF202718B5332C00BDF136 /* NSView+BackgroundColor.m */,
+				08FF202818B5332C00BDF136 /* View-Nametag.h */,
+				08FF202918B5332C00BDF136 /* View-Nametag.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,8 +379,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08FF203418B5332C00BDF136 /* NSView+Constraints.m in Sources */,
+				08FF202C18B5332C00BDF136 /* ConstraintUtilities+Description.m in Sources */,
 				08FF1FED18B5330800BDF136 /* SemiAppDelegate.m in Sources */,
 				08FF1FE618B5330800BDF136 /* main.m in Sources */,
+				08FF202E18B5332C00BDF136 /* ConstraintUtilities+Layout.m in Sources */,
+				08FF202F18B5332C00BDF136 /* ConstraintUtilities+Matching.m in Sources */,
+				08FF202D18B5332C00BDF136 /* ConstraintUtilities+Install.m in Sources */,
+				08FF203318B5332C00BDF136 /* View-Nametag.m in Sources */,
+				08FF203018B5332C00BDF136 /* NSObject-Description.m in Sources */,
+				08FF203118B5332C00BDF136 /* NSObject-Nametag.m in Sources */,
+				08FF203218B5332C00BDF136 /* NSView+BackgroundColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
